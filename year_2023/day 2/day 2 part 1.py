@@ -1,5 +1,5 @@
-# input = 'day 2/example1.txt'
-input = 'day 2/input.txt'
+# input = 'year_2023/day 2/example1.txt'
+input = 'aoc-inputs/year_2023/day 2/input.txt'
 
 gameRules = {'red':12,'green':13,'blue':14}
 

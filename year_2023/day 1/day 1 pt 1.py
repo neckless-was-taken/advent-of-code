@@ -1,5 +1,5 @@
-# input = 'day 1/example1.txt'
-input = 'day 1/input.txt'
+# input = 'year_2023/day 1/example1.txt'
+input = 'aoc-inputs/year_2023/day 1/input.txt'
 calibration = 0
 for line in open(input).readlines():
     line = str(line.strip('\n'))

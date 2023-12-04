@@ -1,5 +1,5 @@
-# inputFile = 'day 4/example1.txt'
-inputFile = 'day 4/input.txt'
+# inputFile = 'year_2023/day 4/example1.txt'
+inputFile = 'aoc-inputs/year_2023/day 4/input.txt'
 
 part1 = 0
 part2 = 0

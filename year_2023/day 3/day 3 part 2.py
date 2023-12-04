@@ -1,5 +1,5 @@
-inputFile = 'day 3/example1.txt'
-inputFile = 'day 3/input.txt'
+# inputFile = 'year_2023/day 3/example1.txt'
+inputFile = 'aoc-inputs/year_2023/day 3/input.txt'
 
 input = open(inputFile, 'r')
 schematic = []
