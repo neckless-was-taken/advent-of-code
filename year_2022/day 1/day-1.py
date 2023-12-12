@@ -7,7 +7,7 @@ t_elf = []
 cal = 0
 
 calories = [line.strip('\n') for line in open(input).readlines()]
-print(calories)
+# print(calories)
 for c in calories:
     if c != '':
         c_elf.append(int(c))
@@ -15,15 +15,15 @@ for c in calories:
         elf.append(c_elf)
         c_elf = []
 
-print("elf:",elf)
+# print("elf:",elf)
 
 for i in range(0,len(elf)):
     for j in range(0,len(elf[i])):
         cal = cal + elf[i][j]
     t_elf.append(cal)
     cal = 0
-#print(max(t_elf))
+print(max(t_elf))
 
 a = sorted(t_elf, reverse=True)
 sum = a[0]+a[1]+a[2]
-#print(sum)
+print(sum)
