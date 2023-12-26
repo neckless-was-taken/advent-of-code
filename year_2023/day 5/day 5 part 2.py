@@ -1,23 +1,35 @@
-# this isn't finished, its currently just a copy of 'day 5 try 3'
+# this solution is from: https://www.youtube.com/watch?v=NmxHw_bHhGM
 
 # inputFile = 'year_2023/day 5/example1.txt'
 inputFile = 'aoc-inputs/year_2023/day 5/input.txt'
 
-seeds, *blocks = open(inputFile).read().split('\n\n')
+inputs, *blocks = open(inputFile).read().split('\n\n')
 
-seeds = list(map(int, seeds.split(':')[1].split()))
+inputs = list(map(int, inputs.split(':')[1].split()))
+
+seeds = []
+
+for i in range(0, len(inputs),2):
+    seeds.append((inputs[i], inputs[i]+inputs[i+1]))
 
 for block in blocks:
     ranges = []
     for line in block.splitlines()[1:]:
         ranges.append(list(map(int, line.split())))
     new = []
-    for x in seeds:
+    while seeds:
+        s, e = seeds.pop()
         for a, b, c in ranges:
-            if x in range(b, b+c):
-                new.append(x - b + a)
+            os = max(s, b)
+            oe = min(e, b+c)
+            if os < oe:
+                new.append((os -b + a, oe - b + a))
+                if os > s:
+                    seeds.append((s, os))
+                if e > oe:
+                    seeds.append((oe, e))
                 break
         else:
-            new.append(x)
+            new.append((s,e))
     seeds = new
-print(min(seeds))
+print(min(seeds)[0])

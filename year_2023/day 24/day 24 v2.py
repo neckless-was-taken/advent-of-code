@@ -18,7 +18,6 @@ upper = 27
 lower = 200000000000000
 upper = 400000000000000
 
-print('ha')
 
 for i, hs1 in enumerate(hailstones):
     for hs2 in hailstones[:i]:

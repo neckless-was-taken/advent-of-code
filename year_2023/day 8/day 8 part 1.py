@@ -78,5 +78,5 @@ for line in open(inputFile, 'r').readlines():
 
 p1 = part1(start,end,directions,input)
 print(f'part 1 = {p1}')
-# p2 = part2(startList,directions,input)
-# print(f'part 2 = {p2}')
+p2 = part2(startList,directions,input)
+print(f'part 2 = {p2}')
