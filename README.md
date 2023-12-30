@@ -6,7 +6,7 @@ I do AoC for fun and to better my Python/programming skills, my first ever exper
 *If the solution isn't my original code, the source for it is added as a comment at line 0 on the code. And the 'Acquired Stars' listing for the year has '(with help)'.
 
 ## Input obfuscation
-The puzzle inputs are submoduled in a private repository as per the creator's request:
+The puzzle inputs are submoduled in a private repository as per the r/aoc FAQ:
 > Do not commit your puzzle input into your repo or at least not do not share the input publicly; use .gitignore or equivalent.
 
 [source](https://reddit.com/r/adventofcode/wiki/faqs/copyright/inputs)
@@ -14,3 +14,5 @@ The puzzle inputs are submoduled in a private repository as per the creator's re
 ## ⭐️ Acquired Stars ⭐️
 ![2022](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/neckless-was-taken/advent-of-code/main/year_2022/completion.json)\
 ![2023](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/neckless-was-taken/advent-of-code/main/year_2023/completion.json)
+
+🟢: Completed, 🟡: In-Progress, 🔴: Not Completed/Not In-Prgoress
