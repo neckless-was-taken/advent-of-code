@@ -1,4 +1,5 @@
 # revisit date: 27/12/2023
+# previously: 1 star
 
 inputFile = 'year_2022/day 6/example.txt'
 inputFile = 'aoc-inputs/year_2022/day 6/input.txt'
