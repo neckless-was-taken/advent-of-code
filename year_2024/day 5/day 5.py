@@ -47,9 +47,31 @@ print()
 answer_2 = 0
 
 def page_sorter3000(page):
-    # figure out how to sort it
+    new_page = []
+    for i in range(len(page)):
+        # look for i-th element in the list (first, then second, then third ...)
+        for n in page:
+            # consider every element as a candidate for the i-th element
+            for r in rules:
+                # look through all the rules
+                if n in r:
+                    # look if element candidate is in the rules
+                    if n in r[1]:
+                        # element candidate is in the end rule
+                        if r[0] in page:
+                            # element candidate can't be first because another element must be before it
+                        
+                        
+                    print(page[i+1:])
 
-    return int(page[int(len(page)/2)])
+                    if r[0] not in page[i+1:]:
+
+                        continue
+
+        new_page.append(n)
+
+    print(new_page)
+    return int(new_page[int(len(new_page)/2)])
 
 
 wrong_pages = []
