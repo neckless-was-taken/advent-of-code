@@ -24,3 +24,5 @@ for i in range(3**num_digits):
     #         print("Found a 2!")
     #         # Perform some action for 2
     # print('-' * 20)  # Separator for better readability
+
+
