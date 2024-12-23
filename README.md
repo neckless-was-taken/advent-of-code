@@ -16,6 +16,6 @@ The puzzle inputs are submoduled in a private repository as per the r/aoc FAQ:
 ![2023](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/neckless-was-taken/advent-of-code/main/year_2023/completion.json)\
 ![2024](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/neckless-was-taken/advent-of-code/main/year_2024/completion.json)
 
-🟡: In-Progress\
+🔴: In-Progress\
 \
 *If the solution isn't my original code, the source for it is added as a comment at line 0 on the code. Most of these are from [youtube/hyper-neutrino](https://www.youtube.com/@hyper-neutrino).
