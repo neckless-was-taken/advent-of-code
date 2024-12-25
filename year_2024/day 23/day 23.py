@@ -1,5 +1,5 @@
-# input = 'year_2024/day 23/example.txt'
-input = 'aoc-inputs/year_2024/day 23/input.txt'
+input = 'year_2024/day 23/example.txt'
+# input = 'aoc-inputs/year_2024/day 23/input.txt'
 
 from tqdm import tqdm
 
